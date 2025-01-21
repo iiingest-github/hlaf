@@ -73,6 +73,7 @@ input{
 	width:70%;
     height:20px;
     border:none;
+	border-radius:0px;
     outline:none;
 	background-color:rgba(0,0,0,0);
 	border-bottom:1px var(--v-col) solid;
@@ -140,6 +141,7 @@ ul{
 	background-color:rgba(0,0,0,0);
 	border:1px black solid;
 	cursor:pointer;
+	color:black;
 }
 #cmt-container{
 	font-size:10px;
