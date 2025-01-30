@@ -1,4 +1,4 @@
-﻿function filt(me){
+function filt(me){
 	document.getElementById("input").value = "";
 	var columns = document.getElementsByClassName("column");
 	for(var i=1;i<columns.length;i++){
@@ -97,4 +97,10 @@ function seljump(){
 		case atext.length-1:document.getElementById("abtn2").setAttribute("hidden",true);
 	}
 	window.scrollTo(0,0);
+}
+
+function showpic(me){
+	var pic = me.nextElementSibling;
+	if(pic.style.display == "none"){pic.style.display = "block";me.innerHTML = "隐藏图片";}
+	else{pic.style.display = "none";me.innerHTML = "显示图片";}
 }
