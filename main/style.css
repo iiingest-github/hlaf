@@ -105,6 +105,12 @@ a,#reset,footer{
 ul{
 	margin-left:5px;
 }
+th,td{
+	padding:5px;
+}
+a>img{
+	width:100%;
+}
 .tag{
 	border:1px var(--v-col) solid;
 	cursor:pointer;
